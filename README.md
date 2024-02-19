@@ -17,7 +17,7 @@ Este é um projeto web de um site básico que apresenta um curso de maquiagem pr
 3. Navegue pelo site para visualizar as informações e utilize os botões de inscrição para ser redirecionado para o WhatsApp se desejado.
 
 ## Contribuição
-- Contribuições são bem-vindas! Sinta-se à vontade para sugerir melhorias ou corrigir problemas através de pull requests.
+Contribuições são bem-vindas! Sinta-se à vontade para sugerir melhorias ou corrigir problemas através de pull requests.
 
 ## Autor
 Larissa Coutinho Ferreira
