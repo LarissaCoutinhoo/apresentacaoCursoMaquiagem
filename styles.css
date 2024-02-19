@@ -1,0 +1,918 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.section {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#section1 {
+  background-image: url('img/MAKE\ 3.jpeg');
+  height: 33.33vh;
+  background-position: center 31%;
+}
+
+#section2 {
+  background-image: url('img/MAKE\ 4.jpeg');
+  color: #fff;
+  height: 33.33vh;
+  position: relative;
+}
+
+
+#section3 {
+  background-image: url('img/MAKE\ 5.jpeg');
+  height: 33.33vh;
+  background-position: center 29%;
+}
+
+
+.title {
+  font-size: 2.5em;
+  margin-top: 0.5px;
+}
+
+.subtitle {
+  font-size: 1.0em;
+  margin-bottom: 0;
+}
+
+.slogan {
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+.line {
+  width: 25%;
+  height: 2.5px;
+  background: linear-gradient(to right, transparent 0%, #000 50%, transparent 100%);
+  margin-top: 10px;
+}
+
+.button {
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  font-size: auto;
+  border-radius: 3px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  text-align: center;
+  width: 15%;
+  height: auto;
+  padding: 2px;
+}
+
+.button:hover {
+  background: linear-gradient(#000, #222); 
+  color: #fff;
+  transform: scale(1.1); 
+}
+
+#section2 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* home page ok! */
+
+
+
+
+
+#container-principal {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+box-sizing: border-box;
+padding: 0 1rem; 
+margin-top: 0;
+margin-bottom: 0;
+height: 80vh;
+}
+
+.container {
+display: flex;
+max-width: 70%; 
+}
+
+.inicio {
+text-align: left; 
+max-width: 50%; 
+margin: 10%;
+}
+
+.inicio::before {
+content: "";
+display: block;
+width: 100px; 
+height: 3px; 
+background-color: #7f644b; 
+margin-bottom: 20px; 
+margin-left: auto;
+margin-right: auto;
+}
+
+#fotogesi {
+max-width: 50%; 
+}
+
+#fotogesi img {
+max-width: 80%;
+max-height: auto;
+width: auto;
+height: auto;
+margin: 10%;
+}
+
+/* instrutora + foto ok! */
+
+
+/* começando sobre o curso */
+#sobre-o-curso,
+#certificado {
+text-align: center;
+font-size: 20px;
+padding: 20px;
+background: linear-gradient(to right, #d2b48c, #7f644b);
+}
+
+
+#sobre-o-curso h2,
+#certificado h2 {
+text-align: left;
+margin-top: 10px;
+margin-bottom: 20px;
+color: #fff;
+}
+
+.section-content {
+max-width: 40%;
+margin: 0 auto;
+}
+
+#sobre-o-curso p,
+#certificado p {
+max-width: 100%;
+margin-bottom: 10px;
+}
+
+#certificado {
+  margin-bottom: 15px;
+}
+
+
+
+/* O QUE VC VAI APRENDER */
+.container2 {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.image {
+display: block;
+margin: 0 auto;
+width: 100%;
+height: auto;
+}
+
+.photo-left,
+.photo-right-1,
+.photo-right-2 {
+width: 45%;
+margin: 0;
+}
+
+.photo-left,
+.photo-right-2,
+.photo-right-1,
+#o-que-vai-aprender {
+margin-bottom: 20px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+
+
+#o-que-vai-aprender {
+width: 45%;
+text-align: left;
+font-size: 20px;
+}
+
+#o-que-vai-aprender h2 {
+width: 45%;
+text-align: left;
+font-size: 25px;
+}
+
+
+/* começando tecnicas */
+#tecnicas-section {
+  background-color: #d2b48c;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#tecnicas-section h3 {
+  font-size: 30px;
+  color: black;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#tecnicas-section h3:after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  width: 60px;
+  height: 2px;
+  transform: translateX(-50%);
+}
+
+#tecnicas-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#tecnicas-section li {
+  font-size: 20px;
+  margin: 10px;
+  color: black;
+  position: relative;
+}
+
+#tecnicas-section li:after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  width: 80%;
+  height: 1px;
+  background: black; 
+  transform: translateX(-50%);
+}
+/* FINALIZANDO TECNICAS */
+
+/* COMEÇO VANTAGENS */
+#vantagens {
+  background-color: #FFF;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.container3 {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.container3 h2 {
+  color: #000;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.vantagens-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.vantagem {
+  width: calc(20% - 20px); 
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vantagem h3 {
+  color: #7f644b;
+}
+
+.vantaagem p {
+  color: #555;
+}
+/* FINAL VANTAGENS */
+
+/* CONQUISTE SUA INDEPENDENCIA */
+#independencia-financeira {
+  background: linear-gradient(to right, #d2b48c, #7f644b); 
+  padding: 80px 0;
+  text-align: center;
+  color: #fff;
+}
+
+#independencia-financeira h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+#independencia-financeira p {
+  margin-bottom: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#independencia-financeira a {
+  text-decoration: none;
+}
+
+#independencia-financeira button {
+  background-color: #fff;
+  color: #000; 
+  padding: 15px 30px;
+  font-size: 1em;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#independencia-financeira button:hover {
+  background-color: #e3cfa9; 
+}
+
+@keyframes pulse {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.05);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+.highlighted {
+  animation: pulse 1.5s infinite;
+}
+
+/* INDEPENDENCIA OK!! */
+
+/*DEPOIMENTOS */
+
+.video-container h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+
+.video-container {
+  max-width: 500px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
+}
+
+:root {
+  --cor-destaque: #FFF;
+  --cor-fundo: #7f644b;
+}
+
+/* SETAS */
+.arrow {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+font-size: 30px; 
+cursor: pointer;
+background-color: var(--cor-fundo);
+padding: 8px;
+border-radius: 50%;
+color: var(--cor-destaque);
+transition: background-color 0.3s ease;
+}
+
+.next {
+  right: 10px;
+}
+
+.prev {
+  left: 10px;
+}
+
+
+.arrow:hover {
+  background-color: var(--cor-destaque);
+}
+
+
+.video-item {
+  display: none; 
+}
+
+
+.video-title {
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+.video-item video {
+  width: 80%; 
+  height: auto;
+  display: block;
+  max-width: 406px; 
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+}
+
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
+.video-description {
+font-size: 14px;
+color: #666;
+margin-top: 10px;
+text-align: center;
+margin-bottom: 30px;
+}
+
+/*DEPOIMENTOS OK!! */
+
+/*PRESENTES */
+
+#presentes {
+position: relative;
+background-image: url('img/PRESENTE.png');
+background-size: cover;
+background-position: center;
+color: black; 
+padding: 50px; 
+
+/* FILTRO IMG */
+&:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; 
+}
+}
+
+#presentes h2,
+#presentes p {
+position: relative; 
+z-index: 1; 
+}
+
+#presentes h2 {
+font-size: 2.5em; 
+margin-bottom: 20px; 
+color: #885b3b;
+}
+
+#presentes p {
+font-size: 1.0em; 
+line-height: 1.5; 
+letter-spacing: 2px;
+}
+
+.minhaclasse {
+font-family: 'Parisienne', cursive;
+font-size: 1.6em;
+}
+
+/*PRESENTES OK!! */
+
+/*INVESTIMENTO + INSCRIÇÃO */
+
+.final-section {
+text-align: center;
+padding: 40px;
+background-color: #fff; 
+border-radius: 15px;
+color: #000; 
+}
+
+
+.final-section h2 {
+color: #885b3b; 
+font-size: 36px;
+margin-bottom: 20px;
+}
+
+
+.investment-info {
+margin-top: 30px;
+}
+
+.investment-info h3 {
+color: #b9895d; 
+font-size: 28px;
+margin-bottom: 10px;
+}
+
+.investment-info p {
+color: #000; 
+font-size: 20px;
+margin-bottom: 15px;
+}
+
+
+.registration-button {
+display: inline-block;
+padding: 20px 40px;
+margin-top: 20px; 
+margin-bottom: 30px; 
+background-color: #885b3b; 
+color: #eae6da;
+text-decoration: none;
+border-radius: 10px;
+font-size: 20px;
+transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.registration-button:hover {
+background-color: #b9895d; 
+transform: scale(1.05);
+}
+
+
+.cronometro {
+margin-top: 30px;
+font-size: 24px;
+margin-bottom: 30px;
+}
+
+.cronometro div {
+display: inline-block;
+margin: 0 20px;
+color: #b9895d; 
+}
+
+.cronometro span {
+font-size: 25px;
+font-weight: bold;
+}
+
+.tempo {
+display: block;
+font-size: 10px;
+margin-top: 10px;
+color: #b9895d; 
+}
+
+
+.opportunity-text {
+margin-top: 30px;
+color: #000; 
+font-size: 20px;
+}
+
+/*INVESTIMENTO + INSCRIÇÃO ok!! */
+
+
+/*PERGUNTAS FREQUENTES*/
+section#faq {
+background: #d2b48c; 
+padding: 50px;
+text-align: center;
+}
+
+
+section#faq h3 {
+cursor: pointer;
+background-color: #7f644b;
+color: #fff; 
+padding: 15px;
+border: none;
+text-align: left;
+transition: background-color 0.3s ease; 
+width: 50%;
+margin-left: 25%;
+margin-right: 25% ;
+}
+
+section#faq h3:hover {
+background-color: #7f644b; 
+}
+
+
+section#faq p {
+display: none;
+padding: 10px;
+text-align: center;
+}
+
+section#faq h2 {
+color: #FFF;
+font-size: 30px;
+margin-top: 0;
+margin-bottom: 50px;
+}
+/*PERGUNTAS FREQUENTES OK!!*/
+
+
+section#ajuda {
+background: #fff; 
+padding: 50px;
+text-align: center;
+}
+
+section#ajuda h2{
+text-align: center;
+margin-top: 0;
+}
+
+#ajuda button{
+margin-top: 20px;
+margin-bottom: 0;
+background-color: #d2b48c;
+border-style: none;
+font-size: 15px;
+height: 55px;
+width: 300px;
+border-radius: 3px;
+}
+
+/*FOOTER */
+
+footer {
+background-color: #ffd4d4;
+color: #000;
+padding: 20px;
+text-align: center;
+}
+
+.social-media {
+display: flex;
+justify-content: center;
+margin-bottom: 10px;
+}
+
+.social-media a {
+margin: 0 10px;
+}
+
+.social-media img {
+width: 30px; 
+}
+
+footer p {
+margin: 0;
+}
+
+footer {
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1276px) {
+  #paragrafooculto p{   /*paragrafo oculto para notebooks*/
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  /* responsividade para celular */
+
+  body {
+    font-size: 18px;
+  }
+
+  .title {
+   text-align: center;
+   font-size: 30px;
+  }
+  
+  .subtitle {
+   text-align: center;
+   font-size: 15px;
+  }
+  
+  .slogan {
+   text-align: center;
+   font-size: 25px;
+  }
+  
+  .line {
+    text-align: center;
+  }
+  
+  .button {
+  text-align: center;
+  height: 25px;
+  padding: 2px;
+  width: 60%;
+  }
+
+  .line {
+    width: 50%;
+    margin: 0;
+  }
+  /* homepage acima */
+
+  #container-principal {
+    box-sizing: border-box;
+    margin: 0%;
+    height: auto;
+    }
+    
+    .container {
+    flex-direction: column;
+    margin: 0%;
+    }
+    
+    .inicio {
+    max-width: 80%;
+    padding: 0%;
+    }
+    
+    .inicio::before {  /* CONFIGURAÇÕES DA LINHA */
+    width: 30%; 
+    height: 2px; 
+    margin: 0;
+    }
+    
+    #fotogesi {
+    max-width: 85%;
+    margin: 0%;
+    }
+    
+    #fotogesi img {
+    align-items: center;
+    max-width: 100%;
+    max-height: auto;
+    }
+
+  .container {
+    max-width: 100%;
+    height: auto;
+  }
+  /* instrutora + foto acima */
+
+
+  #sobre-o-curso,
+  #certificado {
+  font-size: 18px;
+  margin: 10px;
+  }
+  
+  
+  #sobre-o-curso h2,
+  #certificado h2 {
+  margin: 10px;
+  }
+  
+  .section-content {
+  max-width: 100%;
+  margin: 5%;
+  }
+  
+  #sobre-o-curso p,
+  #certificado p {
+  max-width: 100%;
+  margin: 10px;
+  }
+/* sobre o curso + certificado acima */
+
+/* O QUE VC VAI APRENDER */
+  .photo-left,
+  .photo-right-1,
+  .photo-right-2 {
+  width: 45%; 
+  margin: 0;
+  }
+  
+  .photo-left,
+  .photo-right-2,
+  .photo-right-1,
+  #o-que-vai-aprender {
+  margin: 5px; /* */
+  }
+  
+  
+  #o-que-vai-aprender p {
+   display: none;  /* */
+  }
+
+  #paragrafooculto p {
+    font-size: 18px;  /* */
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+  }
+/* o que você vai aprender acima */
+
+#vantagens {
+  background-color: #FFF;
+  padding: 80px 0;
+  text-align: center;
+  margin: 0px;
+}
+
+.container3 h2 {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+
+.vantagem {
+  width: 100%;
+  margin: 30px;
+  padding: 15px;
+}
+/* vantagens acima */
+
+
+#independencia-financeira button {
+  background-color: #fff;
+  color: #000; 
+  padding: 15px 30px;
+  font-size: 1em;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+#independencia-financeira h2{
+  margin-top: 20px;
+  padding: 0;
+}
+/* independencia acima */
+
+.video-container {
+  padding: 25px;
+}
+/* depoimentos acima */
+
+section#faq h3 {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 0%;
+  padding-right: 0%;
+  }
+/* perguntas frequentes acima */
+
+    .buttonajuda {
+      padding: 0;
+      align-items: center;
+      max-width: 70%;
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+}
