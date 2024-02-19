@@ -1,15 +1,15 @@
 ## Link do site
-https://cursogesianecoutinhomakeup.netlify.app/
+https://larissacoutinhoo.github.io/Curso-de-Maquiagem/
 
-# Sobre o projeto
-Este é um projeto web de um site básico para um site que apresenta um curso de maquiagem profissional. O objetivo dele é fornecer informações sobre o curso e facilitar o processo de inscrições que ocorre através do WhatsApp. 
+## Sobre o projeto
+Este é um projeto web de um site básico que apresenta um curso de maquiagem profissional. O objetivo dele é fornecer informações sobre o curso e facilitar o processo de inscrições que ocorre através do WhatsApp. 
 
 ## Tecnologias utilizadas
 - *HTML:* Estrutura.
 - *CSS:* Estilos do layout.
 - *JS:* Arquivos JavaScript para as funcionalidades interativas.
 
-### Como utilizar
+## Como utilizar
 1. Clone este repositório para os seu ambiente de desenvolvimento local.
 
 2. Abra o arquivo 'index.html' em um navegador web.
