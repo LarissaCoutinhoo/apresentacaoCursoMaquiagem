@@ -1,5 +1,5 @@
 ## 🌐 Link do site
-https://larissacoutinhoo.github.io/Curso-de-Maquiagem/
+https://larissacoutinhoo.github.io/apresentacaoCursoMaquiagem/
 
 ## Sobre o projeto
 Este projeto é um site de apresentação criado para divulgar um curso de maquiagem profissional. O objetivo principal é fornecer informações detalhadas sobre o curso, apresentar seus benefícios e facilitar o processo de inscrição, que é realizado diretamente pelo WhatsApp.
